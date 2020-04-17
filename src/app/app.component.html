@@ -1,0 +1,19 @@
+<h1>Built-in Pipes example in angular</h1>
+<h4><u>Uppercase Pipe</u></h4>    
+<p>{{title | uppercase}}</p> 
+<h4><u>Lowercase Pipe</u></h4>    
+<p>{{title | lowercase}}</p>  
+<h4><u>Currency Pipe</u></h4>    
+<p>{{5889.23 | currency:"USD"}}</p>
+<p>{{5889.23 | currency:"USD":true}}</p> 
+<h4><u>Date pipe</u></h4>    
+<p>{{todaydate | date:'d/M/y'}}</p>
+<p>{{todaydate | date:'shortTime'}}</p>  
+<h4><u>Decimal Pipe</u></h4>    
+<p>{{ 754.98787814 | number: '3.4-4' }}</p>
+<h4><u>Json Pipe</u></h4>    
+<p>{{ jsonval | json }}</p>  
+<h4><u>Percent Pipe</u></h4>    
+<p>{{00.84565 | percent}}</p>  
+<h4><u>Slice Pipe</u></h4>    
+<p>{{months | slice:3:6}}</p>  
